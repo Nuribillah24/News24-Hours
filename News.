@@ -1,9 +1,6 @@
 const rssFeeds = [
   "http://rss.cnn.com/rss/edition.rss",
-  "http://feeds.reuters.com/reuters/topNews",
-  "https://feeds.bbci.co.uk/news/world/rss.xml",
-  "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-  "https://www.aljazeera.com/xml/rss/all.xml'
+  "http://feeds.reuters.com/reuters/topNews"
   ];
 
 async function fetchRSSFeed(url) {
